@@ -175,12 +175,10 @@ main {
 
 .skill-container {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .skill-box {
-    width: 250px;
-    height: 350px;
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
@@ -197,7 +195,73 @@ main {
 
 .skill-p {
     width: 201px;
-    color:#757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/* start resume styles */
+
+.resume-section {
+    margin-top: 130px;
+    max-width: 1140px;
+    background: #FFF8F3;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.resume-container {
+    display: flex;
+    margin-top: 110px;
+    gap: 70px;
+    margin-bottom: 40px;
+}
+
+.resume-h3 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-box {
+    border-bottom: 2px solid #bebbbb;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.resume-box:last-child {
+    border-bottom: none;
+}
+
+.resume-box-h3 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+.resumebox-h4 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resumebox-p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.downloadbtn {
+    margin-left: 50%;
+    transform: translate(-50%);
+
 }

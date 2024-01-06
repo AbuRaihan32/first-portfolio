@@ -1,0 +1,49 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txt-primary {
+    color: #FD6E0A;
+}
+
+.btn-prymari {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+
+
+
+/* Nav related styles  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}

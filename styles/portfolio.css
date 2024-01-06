@@ -206,10 +206,10 @@ main {
 .resume-section {
     margin-top: 130px;
     max-width: 1140px;
-    background: #FFF8F3;
+    /* background: #FFF8F3;
     padding: 50px;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); */
 
 
 }
@@ -264,4 +264,54 @@ main {
     margin-left: 50%;
     transform: translate(-50%);
 
+}
+
+/* start footer style */
+
+
+.footer {
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+
+}
+
+.footer-colum-container {
+    display: flex;
+    gap: 115px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.footer-colum-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-colum-p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-aria {
+    display: flex;
+    gap: 25px;
+}
+
+.contact input[type=text], input[type=email],
+textarea {
+    display: block;
+    padding: 18px 30px;
+    margin-bottom: 25px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
 }

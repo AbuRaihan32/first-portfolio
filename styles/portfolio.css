@@ -18,13 +18,12 @@ body {
 }
 
 
-
-
 /* Nav related styles  */
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -46,4 +45,20 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* start header styles */
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 30px 200px;
+    align-items: center;
+}
+
+.banner .picture {
+    width: 584px;
+    height: 676px;
 }

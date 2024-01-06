@@ -159,7 +159,45 @@ main {
 }
 
 .about-inp {
-    color:#474747;
+    color: #474747;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* section What i do start */
+.what {
+    margin-top: 130px;
+}
+
+.what-i-do-p {
+    padding: 30px 155px 50px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-box {
+    width: 250px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-h3 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0px 20px;
+}
+
+.skill-p {
+    width: 201px;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
 }

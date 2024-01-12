@@ -333,16 +333,19 @@ textarea {
     }
     
     .picture{
-        width: 500px;
+        width: 50vw;
+        display: none;
     }
 
     nav {
-        margin-left: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content:start;
         
     }
 
     .nav-title{
-        margin-right: 20px;
+        margin-right: ;
     }
 
     .hire-me{

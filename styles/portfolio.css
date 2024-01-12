@@ -55,11 +55,10 @@ nav a {
 /* start header styles */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
 
     background-repeat: no-repeat;
-    background-position: 100% 100%;
-
+    background-position: 0 0, 100% 100%;
 }
 
 .banner {
@@ -206,6 +205,7 @@ main {
 .resume-section {
     margin-top: 130px;
     max-width: 1140px;
+    margin-top: 120px;
     /* background: #FFF8F3;
     padding: 50px;
     border-radius: 5px;
@@ -219,6 +219,7 @@ main {
     margin-top: 110px;
     gap: 70px;
     margin-bottom: 40px;
+
 }
 
 .resume-h3 {
@@ -302,7 +303,8 @@ main {
     gap: 25px;
 }
 
-.contact input[type=text], input[type=email],
+.contact input[type=text],
+input[type=email],
 textarea {
     display: block;
     padding: 18px 30px;
@@ -314,4 +316,115 @@ textarea {
     background: #FFF;
     border: none;
     width: 100%;
+}
+
+
+
+/* start mobile divice styles */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        padding: 20px 30px 0px 100px;
+        flex-direction:column;
+    }
+    
+    .picture{
+        width: 500px;
+    }
+
+    nav {
+        margin-left: 30px;
+        
+    }
+
+    .nav-title{
+        margin-right: 20px;
+    }
+
+    .hire-me{
+       width: max-content;
+       padding: 15px 20px;
+    }
+
+
+    .what{
+        margin-top: 50px;
+    }
+    .skill-container,
+    .resume-container {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .skill-p,
+    .resume-box {
+        width: auto;
+        padding-left: 10px;
+    }
+
+    .what-i-do-p {
+        padding: 20px;
+    }
+
+    .skill-h3,
+    .resume {
+        margin: 20px 0 5px;
+    }
+
+    .resume-h3 {
+        padding: 0 0 0 10px;
+        margin-top: -50px;
+    }
+
+    .footer-colum-container {
+        flex-direction: column;
+        gap: 20px;
+        width: auto;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-colum {
+        width: 100%;
+    }
+
+    .footer-colum-title,
+    .footer-colum-p {
+        text-align: center;
+    }
+
+    .social-aria {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .contact input[type=text],
+    input[type=email],
+    textarea{
+        width: 88%;
+    }
+
+    .contact{
+        justify-content: center;
+    }
+    .last-btn{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .about{
+        padding:20px;
+    } 
+
+    .about-info-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
 }
